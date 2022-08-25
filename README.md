@@ -8,4 +8,4 @@ Tecnologias utilizadas:
 - H2 Database
 - Swagger (Springfox)
 - Heroku
-- Postresql
+- PostgreSQL

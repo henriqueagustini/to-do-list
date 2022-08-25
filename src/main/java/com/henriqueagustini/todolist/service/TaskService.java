@@ -2,18 +2,16 @@ package com.henriqueagustini.todolist.service;
 
 import com.henriqueagustini.todolist.model.Task;
 import com.henriqueagustini.todolist.repository.TaskRepository;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class TaskService {
 
-    @Autowired
     private TaskRepository taskRepository;
 
     public Task createTask (Task task) {
