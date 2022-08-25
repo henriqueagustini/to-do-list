@@ -72,7 +72,7 @@ public class TaskController {
     @ApiOperation(value = "Excluindo uma tarefa")
     @ApiResponses(value = {
             @ApiResponse(code = 204, message = "Tarefa excluída com sucesso"),
-            @ApiResponse(code = 404, message = "HNão foi possível excluir a tarefa / tarefa não encontrada")
+            @ApiResponse(code = 404, message = "Houve um erro ao listar as tarefas")
     })
     @DeleteMapping("/tasks/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
