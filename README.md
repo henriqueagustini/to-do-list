@@ -6,6 +6,7 @@ Tecnologias utilizadas:
 - Java
 - Spring
 - H2 Database
-- Swagger (Springfox)
 - Heroku
 - PostgreSQL
+- Swagger (Springfox)
+- https://to-do-list-henriqueagustini.herokuapp.com/swagger-ui/index.html#/task-controller
